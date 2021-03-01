@@ -2,6 +2,6 @@ stages:
 - name: deployElastic
   steps:
   - applyYamlConfig:
-      path: ./bitnami/elasticsearch/Chart.yaml
+      path: ./bitnami/elasticsearch/values.yaml
 timeout: 60
 notification: {}
